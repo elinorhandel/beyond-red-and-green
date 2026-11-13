@@ -305,7 +305,7 @@ def results(state: State) -> Page:
     # with 3 items: the plate number (a counter starting at 1),
     # plate.correct_answer, and plate.user_answer.
     # Tip: if user_answer is "", show "(blank)" instead.
-    rows = []
+    rows: list[list] = []
     plate_number = 1
     for plate in state.plates:
         answer_shown = plate.user_answer
