@@ -30,7 +30,8 @@ set_site_information(
              "eye-conditions-and-diseases/color-blindness",
              "Machado, Oliveira & Fernandes (2009), A Physiologically-based "
              "Model for Simulation of Color Vision Deficiency"],
-    planning=["Repository.pdf"],
+    planning=["https://github.com/elinorhandel/beyond-red-and-green/blob/main/"
+          "Repository.pdf"],
     links=["https://github.com/YOUR-USERNAME/YOUR-REPO",
            "YOUR VIDEO LINK"]
 )
